@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+
 *.py[codz]
 *$py.class
 
@@ -7,17 +7,8 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-__pycache__/
-
-*.pyc
 jobs.db
-.job_logs/
-.venv/
-
-.Python
-build/
-develop-eggs/
-dist/
+.job_logs/dist/
 downloads/
 eggs/
 .eggs/
