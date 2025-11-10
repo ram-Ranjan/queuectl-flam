@@ -28,7 +28,7 @@ def init_db():
         """)
 
         con.commit()
-        print("Database initialized successfully.")
+       
         
 def connect():
     return sqlite3.connect(DB_FILE)
